@@ -16,9 +16,10 @@ export default Story
 
 const styles = StyleSheet.create({
     container: {
-
+    marginRight: -15,
     },
     name: {
       textAlign: 'center',
+      marginTop: -10,
     }
 })
