@@ -7,6 +7,7 @@ import Stories from './Stories';
 
 const data = [
     {
+    id: "1",
     user: {
         imageUri: "https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg",
         name: "Elon",
@@ -17,6 +18,7 @@ const data = [
     postedAt: "6 minutes  ago"
     },
     {
+        id: "2",
         user: {
             imageUri: "https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg",
             name: "Elon",
@@ -27,6 +29,7 @@ const data = [
         postedAt: "6 minutes ago"
     },
     {
+        id: "3",
         user: {
             imageUri: "https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg",
             name: "Elon",
@@ -42,6 +45,7 @@ const Feed = () => {
         <FlatList 
             data={data}
             ListHeaderComponent={Stories}
+            keyExtractor={({ id }) => id}
             renderItem={({item}) => <Post post={item} />}
         />
     )
