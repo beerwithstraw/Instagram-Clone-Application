@@ -4,12 +4,20 @@ import { StyleSheet, Text, View } from 'react-native'
 import { TouchableOpacity } from 'react-native'
 
 import ProfilePicture from './ProfilePicture'
+import stories from '../data/stories'
+const Story = (props) => {
 
-const Story = ({ imageUri, name }) => {
+    const { 
+        story: {
+            user: {
+                id, imageUri, name,
+            }
+        }
+    } = props
 
     const navigation = useNavigation()
     const toStory = () => {
-        navigation.navigate("Story")
+        navigation.navigate("Story", { userId: id})
     }
 
     return (
