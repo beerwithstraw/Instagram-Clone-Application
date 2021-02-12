@@ -1,7 +1,7 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
 
-import Stories from '../assets/components/Stories'
+import Stories from '../assets/components/UserStoriesPreview'
 import Feed from '../assets/components/Feed'
 
 
