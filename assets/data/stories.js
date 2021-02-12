@@ -7,14 +7,14 @@ export default [
             },
             stories: [
                 {
-                    imageUri: "https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg",
+                    imageUri: 'https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg',
                     postedTime: "25 min",
                 }, {
                     imageUri: "https://media-exp1.licdn.com/dms/image/C4E03AQF-asnJDV_Drg/profile-displayphoto-shrink_200_200/0/1610769337041?e=1617235200&v=beta&t=H9lZWt9-GiH9FW7Z2BgmDuXWpDTJqv4EtqD4T4DBr8Y",
-                    postedTime: "25 min",
+                    postedTime: "15 min",
                 }, {
                     imageUri: "https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg",
-                    postedTime: "25 min",
+                    postedTime: "6 min",
                 }
             ]
         },{
@@ -25,7 +25,7 @@ export default [
             },
             stories: [
                 {
-                    imageUri: "https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg",
+                    imageUri: 'https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg',
                     postedTime: "25 min",
                 }, {
                     imageUri: "https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg",
