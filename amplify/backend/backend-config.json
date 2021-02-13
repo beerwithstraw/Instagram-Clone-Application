@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "instagramclone7df5e306": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
